@@ -1,0 +1,22 @@
+# Fully qualified path of the instruction file
+INSTRUCTION_FILEPATH=C:\Users\Nikhil\Desktop\Tomasulo\Instructions\instructions3.txt
+# Time taken to complete execution of load and store instructions
+LOAD_EXECUTION_TIME=1
+# Time taken to complete execution of add and subtract instructions
+ADD_EXECUTION_TIME=2
+# Time taken to complete execution of multiply and divide instructions
+MULTIPLY_EXECUTION_TIME=4
+# Time taken to complete execution of branch instructions
+BRANCH_EXECUTION_TIME=1
+# Size of the load/store buffer
+MEMORY_RS_SIZE=5
+# Size of the reservation station for add and subtract instructions
+ADD_RS_SIZE=3
+# Size of the reservation station for multiply and divide instructions
+MULTIPLY_RS_SIZE=3
+# Size of the reservation station for branch instructions
+BRANCH_RS_SIZE=2
+# Denotes if branch is always taken (T) or always not taken (NT)
+BRANCH_PREDICTION=T
+# Number of times branch taken after first execution (loop will be executed "TAKEN_COUNT+1" times)
+TAKEN_COUNT=4
